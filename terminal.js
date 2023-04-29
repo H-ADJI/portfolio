@@ -98,7 +98,7 @@ var Terminal = Terminal || function (cmdLineContainer, outputContainer) {
 
       switch (cmd) {
         case 'clear':
-          output_.innerHTML = '<h1>HADJI KHALIL, (I USE GNU/LINUX BTW)</h1><h3>Software engineer who likes to automate stuff and to dribble around with data.<h3><p>Enter "help" for more information.</p><p> --</p>';
+          output_.innerHTML = '<h1>HADJI KHALIL,</h1><h3>Software engineer who likes to automate stuff and to dribble around with data.<h3><p>Enter "help" for more information.</p><p> --</p>';
           this.value = '';
           return;
         case 'help':

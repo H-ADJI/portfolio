@@ -15,3 +15,7 @@ The Minecraft 🔥 torch animation was purposfully added as a reference to give 
 I firmly believe that using a terminal can be much more flexible, faster and customizable than using a graphical interface, particularly for a software engineer's job. You can often accomplish tasks with a single command or keystroke, whereas in a GUI, you may need to click through multiple menus or dialog boxes.
 
 It is also an excuse to say that "I use arch btw".
+
+## Contributors
+
+Because of my limited expertise in front-end development and web page design technologies, Chat-gpt-3 played a significant role in creating the code base for this project.

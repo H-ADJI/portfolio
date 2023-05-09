@@ -1,21 +1,24 @@
 
-const header = `
-            <div class="head-container">
-            <div class="image">
-                <img class="gif" src="torch-minecraft.gif" alt="Minecraft-style fire torch">
-                <div class="light"></div>
-            </div>
-            <div class="text-container">
-                <h1>HADJI KHALIL</h1>
-                <h3>A person with unique interest in software, maths and engineering.<h3>
-                        <p>Enter "help" for more information.</p>
-                        <p> --</p>
-
-            </div>
-            </div>`
-var audio = new Audio('https://vgmsite.com/soundtracks/minecraft/aoqfyvljpe/Volume%20Alpha%2001.%20Key.mp3');
+let audio = new Audio('https://vgmsite.com/soundtracks/minecraft/aoqfyvljpe/Volume%20Alpha%2001.%20Key.mp3');
 audio.loop = true;
 audio.play();
+
+const header = `
+<div class="head-container">
+  <div class="image">
+    <img class="gif" src="torch-minecraft.gif" alt="Minecraft-style fire torch">
+    <div class="light"></div>
+  </div>
+  <div class="text-container">
+    <h1>HADJI KHALIL</h1>
+    <h3>A person with unique interest in software, maths and engineering.<h3>
+        <p>Enter "help" for more information.</p>
+        <p> --</p>
+
+  </div>
+</div>
+`
+
 $(function () {
 
   $('.prompt').html('root@h_adji:~# ');

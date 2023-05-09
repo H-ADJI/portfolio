@@ -120,7 +120,7 @@ var Terminal = Terminal || function (cmdLineContainer, outputContainer) {
           this.value = '';
           return;
         case 'help':
-          var result = "<h2>You look like you need some help</h2><p><b>whoami</b>: Who am I ?<br><b>education</b>: display information about my education.<br><b>experience</b>: display information about my experiences.<br><b>projects</b>: display information about my projects.<br><b>interests</b>: my areas of intrests ?<br><b>contact</b>: wanna reach out ?<br><b>clear</b>: clear terminal<br><b>help</b>: display this menu.<br><b>play</b>: resume background music.<br><b>pause</b>: pause background music.</p>";
+          var result = "<h2>You look like you need some help</h2><p><b>whoami</b>: Who am I ?<br><b>education</b>: display information about my education.<br><b>experience</b>: display information about my experiences.<br><b>projects</b>: display information about my projects.<br><b>interests</b>: my areas of intrests ?<br><b>contact</b>: wanna reach out ?<br><b>clear</b>: clear terminal<br><b>help</b>: display this menu.<br><b>play</b>: start/resume background music.<br><b>pause</b>: pause background music.</p>";
           output(result);
           break;
         case 'education':

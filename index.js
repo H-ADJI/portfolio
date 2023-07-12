@@ -1,5 +1,5 @@
 let audio = new Audio(
-  "https://vgmsite.com/soundtracks/minecraft/aoqfyvljpe/Volume%20Alpha%2001.%20Key.mp3"
+  "https://vgmsite.com/soundtracks/minecraft/esiyjzozpe/1-08.%20Minecraft.mp3"
 );
 audio.loop = true;
 audio.play();
